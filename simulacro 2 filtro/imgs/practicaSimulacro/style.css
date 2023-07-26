@@ -1,0 +1,92 @@
+.contenedorCrear{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 236, 236);
+    height: 300px;
+    width: 20%;
+    border: 2px solid rgba(182, 182, 182, 0.356);
+    border-radius: 5%;
+    box-shadow: 10px 10px 20px 10px rgb(207, 207, 207);
+}
+
+#crear{
+    display: flex;
+    flex-direction: column;
+}
+
+#crear .btn{
+    margin-top: 10%;
+}
+
+.crearr{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.int{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.intD{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header-prin{
+    background: #212529;
+    padding: 2rem 0;
+}
+
+.logo-nav-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: white;
+    letter-spacing: 15px;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.navegacion ul li{
+    display: inline-block;
+}  
+
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion ul li a:hover{
+    background: #4a4a4a ;
+}
+
+.foot{
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 8%;
+}

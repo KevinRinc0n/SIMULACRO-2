@@ -1,0 +1,44 @@
+body{
+    background-image: url(./imgs/pexels-waldemar-2290070.jpg);
+}
+
+.imagenesIconos{
+    width: 40px;
+    height: 40px;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 8em;
+    padding: 9em;
+    text-align: center;
+}
+
+.comida{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.5);
+}
+  
+.comida img{
+    height: 200px;
+    width: 100%;
+}
+
+.titu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.carrito{
+    margin-left: 95%;
+}
+
+#selector{
+    margin-left: 26%;
+    width: 50%;
+}

@@ -1,0 +1,38 @@
+{
+    "Rutas": [
+      {
+        "NomRuta": "Cafetera",
+        "id": 1
+      },
+      {
+        "NomRuta": "Del Sol",
+        "id": 2
+      }
+    ],
+    "Puntos": [
+      {
+        "id": 1,
+        "NomPuntos": "Manizales",
+        "RutaId": 1,
+        "Imagen": "https://cdn-icons-png.flaticon.com/512/854/854929.png"
+      },
+      {
+        "id": 2,
+        "NomPuntos": "Armenia",
+        "RutaId": 1,
+        "Imagen": "https://cdn-icons-png.flaticon.com/512/854/854929.png"
+      },
+      {
+        "id": 3,
+        "NomPuntos": "Tunja",
+        "RutaId": 2,
+        "Imagen": "https://cdn-icons-png.flaticon.com/512/854/854929.png"
+      },
+      {
+        "id": 4,
+        "NomPuntos": "Bucaramanga",
+        "RutaId": 2,
+        "Imagen": "https://cdn-icons-png.flaticon.com/512/854/854929.png"
+      }
+    ]
+}
